@@ -6,13 +6,15 @@ body {
 
 ul,
 ol {
-    list-style-type: none;
+    list-style: none;
 }
+
+
 .logo1 {
     font-weight: 700;
         font-size: 18px;
     
-        /* line-height: 21px; */
+       
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
