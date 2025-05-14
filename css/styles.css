@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-   color: black;
+   color: #434455;
    background-color: white;
 }
 
@@ -13,30 +13,31 @@ ol {
         font-size: 18px;
     
         /* line-height: 21px; */
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
 }
 .logo-part2-header {
     font-weight: 700;
         font-size: 18px;
     
-        /* line-height: 21px; */
-        line-height: 1.16;
+    
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
+        font-family: "Raleway", sans-serif;
 }
 .logo-part2-footer {
     font-weight: 700;
         font-size: 18px;
-    
-        /* line-height: 21px; */
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
+        font-family: "Raleway", sans-serif;
 }
 a {
     text-decoration: none;
@@ -44,6 +45,8 @@ a {
 .menu-header {
     width: 261px;
         height: 24px;
+        font-style: normal;
+        
 }
 .menu-header-link {
     font-weight: 500;
@@ -53,6 +56,13 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+}
+.menu-header-link .link:hover {
+    color: #404bbf;
+
+}
+.menu-header-link .link:focus{
+color: #404bbf;
 }
 .menu-header-info {
     font-weight: 400;
@@ -74,7 +84,7 @@ a {
     font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -89,7 +99,17 @@ a {
             padding: 16px 32px;
             width: 169px;
             height: 56px;
+            background-color: #4D5AE5;
+            cursor: pointer;
            
+}
+.first-section-btn .link:hover{
+    background-color: #404BBF ;
+    cursor: pointer;
+}
+.first-section-btn .link:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 .section-header2 {
     font-weight: 500;
@@ -118,6 +138,8 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        line-height: 1.11;
+        text-transform: capitalize;
 }
 .section-header3 {
     font-weight: 500;
@@ -130,6 +152,7 @@ a {
         color: #2E2F42;
 }
 .section-header3-text {
+    
     font-weight: 400;
         font-size: 16px;
     
@@ -138,15 +161,18 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        background-color: #FFFFFF;
 }
 .section-header4 {
     font-weight: 500;
         font-size: 20px;
     
         /* line-height: 24px; */
-        line-height: 1.2;
+      
         letter-spacing: 0.02em;
         color: #2E2F42;
+        line-height: 1.11;
+        text-transform: capitalize;
 }
 .section-header4-text {
     font-weight: 400;
@@ -170,4 +196,7 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+}
+.section3-main {
+    background-color: #F4F4FD;
 }
