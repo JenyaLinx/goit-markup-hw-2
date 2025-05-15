@@ -11,26 +11,18 @@ ol {
 
 
 .firstlogo {
-    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 18px;
-    
-       
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
-        font-family: "Raleway", sans-serif;
+        color: #4d5ae5;
 }
 .logo-part2-header {
-    font-weight: 700;
-        font-size: 18px;
     
+    color: #2e2f42;
     
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2E2F42;
-        font-family: "Raleway", sans-serif;
 }
 .logo-part2-footer {
     font-weight: 700;
@@ -45,8 +37,7 @@ a {
     text-decoration: none;
 }
 .menu-header {
-    width: 261px;
-        height: 24px;
+    
         font-style: normal;
         
 }
@@ -60,70 +51,61 @@ a {
     font-weight: 500;
         font-size: 16px;
     
-        /* line-height: 24px; */
+      
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: #2e2f42;
 }
-.menu-header-link .link:hover {
-    color: #404bbf;
 
-}
-.menu-header-link .link:focus{
-color: #404bbf;
-}
 .menu-header-info {
-    font-weight: 400;
+    font-weight: 500;
         font-size: 16px;
-    
-        /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+.menu-header-infohover {
+    color: #404bbf;
 
+}
+
+.menu-header-info:focus {
+    color: #404bbf;
+}
 .first-section {
-    width: 1440px;
-        height: 600px;
+    
         background: #2E2F42;
 }
 .first-section-header {
     font-weight: 700;
     font-size: 56px;
-
-    /* line-height: 60px; */
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 .first-section-btn {
-    font-weight: 500;
+    background: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
         font-size: 16px;
-    line-height: 1.5;
+        line-height: 1.5;
         letter-spacing: 0.04em;
-        color: white;
-        border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
-            background-color: #4D5AE5;
-            cursor: pointer;
+        color: #fff;
+        cursor: pointer;
            
 }
-.first-section-btn .link:hover{
+.first-section-btn:hover{
     background-color: #404BBF ;
-    cursor: pointer;
+    
 }
-.first-section-btn .link:focus {
+.first-section-btn:focus {
     background-color: #404BBF;
-    cursor: pointer;
+    
 }
 .section-header2 {
     font-weight: 500;
         font-size: 20px;
-    
-        /* line-height: 24px; */
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
@@ -142,41 +124,29 @@ color: #404bbf;
         color: #434455;
 }
 .section-header-main {
-    font-weight: 700;
-        font-size: 36px;
-    
-        /* line-height: 40px; */
-        line-height: 1.11111;
+    font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2E2F42;
-        line-height: 1.11;
+        color: #2e2f42;
         text-transform: capitalize;
 }
 .section-header3 {
     font-weight: 500;
         font-size: 20px;
-    
-        /* line-height: 24px; */
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
-        color: #2E2F42;
+        color: #2e2f42;
 }
 .section3-maine {
-    color: #F4F4FD;
+    background-color: #fff;
 }
 .section-header3-text {
-    
-    font-weight: 400;
         font-size: 16px;
-    
-        /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        background-color: #FFFFFF;
 }
 .section-header4 {
     font-weight: 500;
@@ -204,13 +174,9 @@ color: #404bbf;
         background: #2E2F42;
 }
 .text-footer {
-    font-weight: 400;
-        font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 1.5;
+    line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: #f4f4fd;
 }
 .section3-main {
     background-color: #F4F4FD;
