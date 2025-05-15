@@ -25,13 +25,7 @@ ol {
     
 }
 .logo-part2-footer {
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #F4F4FD;
-        font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
 }
 a {
     text-decoration: none;
@@ -41,10 +35,10 @@ a {
         font-style: normal;
         
 }
-.menu-header .link:hover {
+.menu-header:hover {
     color: #404bbf;
 }
-.menu-header .link:focus {
+.menu-header:focus {
     color: #404bbf;
 }
 .menu-header-link {
@@ -64,7 +58,7 @@ a {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.menu-header-infohover {
+.menu-header-info:hover {
     color: #404bbf;
 
 }
@@ -110,10 +104,7 @@ a {
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.section2-maine {
-    list-style: none;
-    text-align: center;
-}
+
 .section-header2-text {
     font-weight: 400;
         font-size: 16px;
