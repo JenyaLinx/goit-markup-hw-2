@@ -133,7 +133,7 @@ a {
         text-transform: capitalize;
 }
 .sectiontree-maine {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
 }
 .our-team-section {
     background-color: #F4F4FD;
@@ -146,9 +146,7 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.our-list {
-    background-color: #FFFFFF;
-}
+
 .our-team {
     font-weight: 500;
         font-size: 20px;
