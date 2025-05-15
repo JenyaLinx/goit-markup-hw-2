@@ -10,7 +10,7 @@ ol {
 }
 
 
-.firstlogo {
+.logo-fix {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -19,29 +19,29 @@ ol {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.logo-part2-header {
+.logo-one {
     
     color: #2e2f42;
     
 }
-.logo-part2-footer {
+.logo-two {
     color: #f4f4fd;
 }
 a {
     text-decoration: none;
 }
-.menu-header {
+.hero {
     
         font-style: normal;
         
 }
-.menu-header-link:hover {
+.hero-text:hover {
     color: #404bbf;
 }
-.menu-header-link:focus {
+.hero-text:focus {
     color: #404bbf;
 }
-.menu-header-link {
+.hero-details {
     font-weight: 500;
         font-size: 16px;
     
@@ -51,26 +51,27 @@ a {
         color: #2e2f42;
 }
 
-.menu-header-info {
+.hero-details{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.menu-header-info:hover {
+.hero-details:hover {
     color: #404bbf;
 
 }
 
-.menu-header-info:focus {
+.hero-details:focus {
     color: #404bbf;
 }
 .first-section {
     
         background: #2E2F42;
 }
-.first-section-header {
+
+.hero-main {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -78,7 +79,7 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
-.first-section-btn {
+.hero-button {
     background: #4d5ae5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -89,15 +90,15 @@ a {
         cursor: pointer;
            
 }
-.first-section-btn:hover{
+.hero-button:hover {
     background-color: #404BBF ;
     
 }
-.first-section-btn:focus {
+.hero-button:focus {
     background-color: #404BBF;
     
 }
-.section-header2 {
+.our-strength {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -105,7 +106,7 @@ a {
         color: #2E2F42;
 }
 
-.section-header2-text {
+.our-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -113,7 +114,7 @@ a {
         color: #434455;
 }
 
-.section-header-main {
+.our-team-head {
     font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -121,10 +122,11 @@ a {
         color: #2e2f42;
         text-transform: capitalize;
 }
-.section3-maine {
+.sectiontree-maine {
     background-color: #f4f4fd;
 }
-.section-header3 {
+
+.our-team {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -132,14 +134,14 @@ a {
         color: #2e2f42;
 }
 
-.section-header3-text {
+.our-team-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
 }
-.section-header4 {
+.our-portfolio-head {
     font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
@@ -147,7 +149,7 @@ a {
         line-height: 1.12;
         text-transform: capitalize;
 }
-.section-header4-text {
+.our-portfolio-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -162,7 +164,4 @@ a {
     line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-}
-.section3-main {
-    background-color: #F4F4FD;
 }
