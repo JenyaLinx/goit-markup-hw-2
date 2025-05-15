@@ -161,6 +161,7 @@ a {
         text-align: center;
         color: #434455;
         background-color: #FFFFFF;
+        
 }
 .our-portfolio-head {
     font-weight: 500;
@@ -169,6 +170,7 @@ a {
         color: #2E2F42;
      text-transform: capitalize;
         line-height: 1.2;
+        background-color: #FFFFFF;
 }
 .our-portfolio-text {
     font-weight: 400;
